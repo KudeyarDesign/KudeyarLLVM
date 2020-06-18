@@ -19,6 +19,8 @@ Memory: Immediate address
 
 Authors:
 
+Year: 2017
+
 Alexey Shistko     alexey@kudeyar.com
 
 Andrei Safronov    andrei@kudeyar.com
