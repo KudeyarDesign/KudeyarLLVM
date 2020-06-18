@@ -1,0 +1,27 @@
+;===- ./lib/Target/Kudeyar/TargetInfo/LLVMBuild.txt -------------*- Conf -*--===;
+;
+;                     The LLVM Compiler Infrastructure
+;
+; This file is distributed under the University of Illinois Open Source
+; License. See LICENSE.TXT for details.
+;
+;===------------------------------------------------------------------------===;
+;
+; This is an LLVMBuild description file for the components in this subdirectory.
+;
+; For more information on the LLVMBuild system, please see:
+;
+;   http://llvm.org/docs/LLVMBuild.html
+;
+;===------------------------------------------------------------------------===;
+; Year: 2017
+; Alexey Shistko     alexey@kudeyar.com
+; Andrei Safronov    andrei@kudeyar.com
+;===------------------------------------------------------------------------===;
+
+[component_0]
+type = Library
+name = KudeyarInfo
+parent = Kudeyar
+required_libraries = MC Support Target
+add_to_library_groups = Kudeyar
